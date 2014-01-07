@@ -1,1 +1,22 @@
-new.html.erb
+
+Instructions:<br>
+<ol>
+<li>Enter link to image for ad. Leave blank if none.</li>
+<li>Enter Ad title text.</li>
+<li>Enter Ad copy text.</li>
+<li>Enter Ad url.</li>
+<li>Click the button.</li>
+</ol>
+
+
+<%= form_tag("/entertainment", method: "get") do %>
+ <%= label_tag(:ad_image, "Ad Image:") %><br>
+ <%= text_field_tag(:ad_image) %><br>
+ <%= label_tag(:ad_title, "Ad Title:") %><br>
+ <%= text_field_tag(:ad_title) %><br>
+ <%= label_tag(:ad_text, "Ad Copy:") %><br>
+ <%= text_field_tag(:ad_text) %><br>
+ <%= label_tag(:ad_url, "Ad URL:") %><br>
+ <%= text_field_tag(:ad_url) %><br>
+ <%= submit_tag("Generate") %>
+<% end %>
