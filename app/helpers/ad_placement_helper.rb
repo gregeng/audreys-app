@@ -1,0 +1,2 @@
+module AdPlacementHelper
+end

@@ -1,0 +1,2 @@
+class AdPlacementController < ApplicationController
+end
