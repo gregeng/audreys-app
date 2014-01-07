@@ -1,6 +1,6 @@
 require 'open-uri'
 
-class RareDiseaseScraper
+class HuffPoScraper
 
   HUFFPOPAGE = Nokogiri::HTML(open('http://www.huffingtonpost.com/entertainment/'))
 
