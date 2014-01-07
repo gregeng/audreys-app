@@ -201,6 +201,8 @@ DEPENDENCIES
   guard-rspec
   jbuilder (~> 1.2)
   jquery-rails
+  nokogiri
+  pry
   rails (= 4.0.2)
   rspec-rails
   sass-rails (~> 4.0.0)

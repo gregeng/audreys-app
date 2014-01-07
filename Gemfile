@@ -44,7 +44,12 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# To scrape and replciate the page
+gem 'nokogiri'
+
+
 group :test, :development do
+  gem 'pry'
   gem "rspec-rails"
   gem "capybara"
   gem "selenium-webdriver"
