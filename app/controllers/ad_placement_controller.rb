@@ -5,6 +5,7 @@ class AdPlacementController < ApplicationController
 
 
   def entertainment
+    @html_string = HuffPoScraper.scrape
   end
 
 end
